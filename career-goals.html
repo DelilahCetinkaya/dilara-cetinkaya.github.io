@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Goals | Dilara Cetinkaya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Dilara Cetinkaya</h1>
+    <h2 class="muted">Career Goals</h2>
+    <nav>
+      <a href="resume.html">Resume</a>
+      <a href="cover-letter.html">Cover Letter</a>
+      <a href="career-goals.html">Career Goals</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h3>My Career Goals</h3>
+
+      <img src="media/headshot.jpeg" alt="Professional headshot of Dilara Cetinkaya" width="220">
+
+      <p>
+        My short-term goal is to secure an entry-level <strong>Data Scientist</strong> or <strong>Data Analyst</strong> role where I can apply
+        <em>Python, SQL, and predictive modeling</em> to solve real business problems.
+      </p>
+      <p>
+        My long-term goal is to grow into a data science role focused on responsible, explainable machine learning and building data products
+        that improve decision-making and education outcomes.
+      </p>
+
+      <hr>
+
+      <h3>Audio Introduction</h3>
+      <audio controls>
+         <source src="media/intro.wav" type="audio/wav">
+            Your browser does not support the audio element.
+      </audio>
+
+      <h3>Video Demo</h3>
+      <video controls width="420">
+        <source src="media/demo.mov" type="video/quicktime">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section class="card">
+      <h3>Contact Me</h3>
+
+      <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+        <p>
+          <label>First Name:
+            <input type="text" name="firstName" required>
+          </label>
+        </p>
+
+        <p>
+          <label>Last Name:
+            <input type="text" name="lastName" required>
+          </label>
+        </p>
+
+        <p>
+          <label>Company Name:
+            <input type="text" name="companyName">
+          </label>
+        </p>
+
+        <p>
+          <label>Email Address:
+            <input type="email" name="emailAddress" required>
+          </label>
+        </p>
+
+        <p>
+          <label>Phone Number:
+            <input type="tel" name="phoneNumber">
+          </label>
+        </p>
+
+        <p>
+          <label>Message:<br>
+            <textarea name="message" rows="5" cols="40" required></textarea>
+          </label>
+        </p>
+
+        <p>
+          Best contact time:<br>
+          <label><input type="radio" name="bestContactTime" value="am" required> a.m.</label>
+          <label><input type="radio" name="bestContactTime" value="pm"> p.m.</label>
+          <label><input type="radio" name="bestContactTime" value="anytime"> anytime</label>
+        </p>
+
+        <p>
+          Preferred contact method:
+          <select name="preferredContactMethod" required>
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+            <option value="text">Text</option>
+          </select>
+        </p>
+
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p class="muted">&copy; 2026 Dilara Cetinkaya</p>
+  </footer>
+
+</body>
+</html>
